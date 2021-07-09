@@ -8,7 +8,7 @@ Once you have node installed, run the follow command to insall all dependencies
 
 > npm install
 
-Once installed, you should see a code(node_modules) directory in the root directory. Your app is then ready to start. Run the following command to start your app:  
+Once installed, you should see a `node_modules` directory in the root directory. Your app is then ready to start. Run the following command to start your app:  
 
 > npm start
 
