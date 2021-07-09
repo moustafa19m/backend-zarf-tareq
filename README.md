@@ -4,7 +4,8 @@ A website that is a dictionary for Arabic colloqial words and that offers users 
 
 ### Installation ###
 For the backend of this project, we are using node. Make sure you have the latest version of node installed on your device. [Get Node here.](https://nodejs.org/en/)  
-Once you have node installed, run the follow command to insall all dependencies  
+
+Once you have node installed, cd into your cloned directory and run the follow command to insall all dependencies  
 
 > npm install
 
