@@ -9,7 +9,13 @@ Once you have node installed, cd into your cloned directory and run the follow c
 
 > npm install
 
-Once installed, you should see a `node_modules` directory in the root directory. Your app is then ready to start. Run the following command to start your app:  
+Once installed, you should see a `node_modules` directory in the root directory. You are almost ready, but not quite there. To run the app, you need to connect to mongodb, and you can do that by creating a new file called `properties.js` in `confg/mongo`and copy the following command and paste it there, replacing the `<username>` and `<password>` with your respective database user account.  
+
+>  module.exports = {
+    'url' : "mongodb+srv://moose:qpq2fax6koAa5hOt@zf-cluster.nvgvl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+   };
+ 
+Your app is then ready to start. Run the following command to start your app:  
 
 > npm start
 
