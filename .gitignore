@@ -118,4 +118,4 @@ dist
 .pnp.*
 
 # mongodb properties
-mongo/properties.js
+config/mongo/properties.js
